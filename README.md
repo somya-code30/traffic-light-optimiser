@@ -15,6 +15,8 @@ pip install -r requirements.txt
 python traffic_light_optimizer.py
 ```
 ## Screenshot
+![trafficlight](https://github.com/user-attachments/assets/b17b8d2b-b2dc-4e4b-ac85-a7f65ce93007)
+
 trafficlight.png
 
 ## Requirements

@@ -1,0 +1,21 @@
+Area Name,Road/Intersection Name,length_km,Traffic Volume
+Whitefield,Indiranagar,5.2,1200
+Indiranagar,MG Road,3.8,850
+MG Road,Majestic,6.0,950
+Majestic,Whitefield,8.1,1020
+Electronic City,Silk Board,4.5,1800
+Silk Board,BTM Layout,2.0,1300
+BTM Layout,Koramangala,3.1,1100
+Koramangala,MG Road,5.0,900
+Yeshwantpur,Hebbal,4.2,1500
+Hebbal,RT Nagar,2.8,1100
+RT Nagar,MG Road,3.5,950
+Kengeri,Nayandahalli,3.9,850
+Nayandahalli,Rajajinagar,4.6,920
+Rajajinagar,MG Road,5.7,880
+Banashankari,Jayanagar,2.3,970
+Jayanagar,JP Nagar,1.9,920
+JP Nagar,Electronic City,6.1,870
+Domlur,Indiranagar,1.7,700
+Indiranagar,Ulsoor,2.2,780
+Ulsoor,MG Road,1.4,890

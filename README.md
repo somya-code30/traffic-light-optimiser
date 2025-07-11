@@ -1,28 +1,51 @@
-# Traffic Light Timing Optimizer
+#  Traffic Light Optimizer (Real Data + ML)
 
-Smart‑city simulation that adjusts junction green‑light times in real time based on vehicle flow.
+A smart traffic simulation and optimization app built with **Streamlit** using real-world traffic data. This project models intersections and roads as a graph, predicts vehicle flow using **machine learning**, and dynamically allocates **green signal times** to decongest traffic across the city.
 
-## Features
-- **Graph model**: Intersections=nodes, roads=directed edges with `flow` (veh/min).
-- **Greedy optimiser**: Allocates cycle time in proportion to current flow.
-- **Visualiser**: NetworkX + Matplotlib diagram showing flow and green seconds.
-- **CLI**:cycle flag to pick a different total cycle length.
+---
 
+##  What It Does
+
+- Upload real or simulated traffic data in CSV format
+- Edit and customize the road network interactively
+- Predict traffic volume using linear regression (length → volume)
+- Calculate and optimize green signal times at each junction
+- Visualize traffic flow using network graphs
+
+---
+
+##  Features
+
+✅ Real traffic intersections  
+✅ Graph-based road modeling with **NetworkX**  
+✅ Machine Learning model for traffic volume prediction  
+✅ Interactive UI with **Streamlit** + **data editor**  
+✅ Congestion-aware green signal optimizer  
+✅ Clean, visual summary of signal timing decisions  
+
+---
+
+##  Demo Screenshot
+<img width="1840" height="835" alt="image" src="https://github.com/user-attachments/assets/7a64a034-1ad2-4711-acce-a4a10468fce5" />
+
+---
 
 ## Quick Start
 ```bash
 pip install -r requirements.txt
-python traffic_light_optimizer.py
+streamlit run app.py
 ```
-## Screenshot
-![trafficlight](https://github.com/user-attachments/assets/b17b8d2b-b2dc-4e4b-ac85-a7f65ce93007)
 
-trafficlight.png
+##  Dataset Format
 
-## Requirements
-networkx>=3.3
-matplotlib>=3.9
+The CSV file should look like this:
 
+```csv
+Area Name,Road/Intersection Name,length_km,Traffic Volume
+Whitefield,Indiranagar,5.2,1200
+Indiranagar,MG Road,3.8,850
+...
+```
 ## Contribution
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 Fork the repo
@@ -30,3 +53,5 @@ Create a feature branch: git checkout -b my‑feature
 Commit changes: git commit -m "Add feature"
 Push to branch: git push origin my‑feature
 Open a PR
+
+
